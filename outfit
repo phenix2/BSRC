@@ -1,0 +1,19 @@
+outfit "Retis Radix"
+	category "Systems"
+	cost 90000
+	thumbnail "outfit/retis radix"
+	"mass" 30
+	"outfit buds" -1
+	"scram drive" .2
+	"jump fuel" 150
+	"hyperdrive" 1
+	description "The Retis radix allows you to use the cosmic grid and travel from star to star"
+
+outfit "Retis Array"
+  category "Systems"
+  cost 20000
+  thumbnail "outfit/retis"
+  "mass" 8
+  "outfit buds" -1
+  "fuel capacity" 150
+  description "A single retis array, allowing your ship to travel to one additional node of the cosmic grid on top of the capacity for this size of ship."
