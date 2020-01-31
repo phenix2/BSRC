@@ -1,4 +1,402 @@
-outfit "Retis Radix"
+outfit “Desiccor”
+  category "Ammunition"
+  cost 50
+  thumbnail "outfit/desiccor thorn”
+  "mass" .04
+  “desiccor capacity" -1
+  description "A Nutra-booster allows one desiccor thorn-pellet to grow .”
+  description "A desiccor is a propelled thorn made from tuber-like material that absorbs energy until it overloads and explodes."
+
+outfit “Desiccor radix”
+  category "Ammunition"
+  cost 5000
+  thumbnail "outfit/desiccor radix”
+  "mass" 2
+  "outfit bud” -1
+  “desiccor capacity" 100
+  ammo “Desiccor”
+  description "An separate additional desiccor radix can grow up to 100 desiccor thorn-pellet”
+
+outfit “Desiccor launcher”
+  category "Secondary Weapons"
+  cost 20000
+  thumbnail "outfit/desiccor launcher”
+  "mass" 4
+  "outfit buds” -1
+  "weapon buds” -1
+  "gun buds” -1
+  “desiccor capacity" 200
+  weapon
+    sprite "projectile/desiccor thorn”
+    sound "javelin"
+    ammo “Desiccor”
+    icon "icon/desiccor”
+    "hit effect" “desiccor impact”
+    "inaccuracy" 1
+    "velocity" 10
+    "lifetime" 60
+    "reload" 15
+    "firing energy" .2
+    "firing heat" 12
+    “ion damage” 48
+    "shield damage" 30
+    "hull damage" 26
+    "hit force" 50
+    "missile strength" 3
+  description “If enough desiccors hit a ship all the power will be drained. A large enough volley could get a ship into trouble, especially the smaller ones."
+  description "A desiccor launcher can grow up to 200 desiccors."
+
+outfit “Telum”
+  category "Guns"
+  cost 29000
+  thumbnail "outfit/telum”
+  "mass" 8
+  "outfit buds” -1
+  “weapon buds” -1
+  “gun buds” -1
+  weapon
+  	sprite "projectile/telum”
+  		"frame rate" 1
+  	sound "laser"
+  	"hit effect" “telum impact"
+  	"inaccuracy" .5
+  	"velocity" 300
+  	"lifetime" 1
+  	"reload" 1
+  	"firing energy" .5
+  	"firing heat" 1.2
+  	"shield damage" 1
+  	"hull damage" 1.3
+  description “Using energy from the tuber array it emits a coherent energy beam .”
+
+  effect “telum impact"
+  sprite "effect/telum impact"
+  	"no repeat"
+  	"frame rate" 30
+  "lifetime" 5
+  "random angle" 2
+  "random spin" 1
+  "velocity scale" -.005
+
+outfit "Firmatum"
+	category "Power"
+	cost 20000
+	thumbnail "outfit/firmatum"
+	"mass" 10
+	"outfit buds" -1
+	"energy generation" 1
+	"heat generation" 1
+	description "A firmatum stabilizes the output from the phyto to the tuber."
+  description "Although a firmatum is established technology, it has become more or less redundant on the hyperdrive forms with the development of the plegma array."
+
+outfit "Plegma Array"
+  category "Power"
+  cost 72000
+  thumbnail "outfit/plegma"
+  "mass" 40
+  "outfit buds" -1
+  "energy generation" 2.5
+  "heat generation" 3.8
+  description "A plegma array generates energy from the same medium the retis drive use to travel."
+  description "As a recent development this is the only version the researchers have been able to develop."
+
+outfit "Phyto Array"
+  category "Power"
+  cost 90000
+  thumbnail "outfit/phyto"
+  "mass" 24
+  "outfit space" -1
+  "solar collection" 1.1
+  description "The phyto array generates energy from the photosynthesis process in the cortex matrix and cortex radix "
+
+outfit "Phyto2 Array"
+  category "Power"
+  cost 18000
+  thumbnail "outfit/phyto2"
+  "mass" 40
+  "outfit space" -2
+  "solar collection" 2
+  description "This more advanced form of the phyto array generates more energy from the photosynthesis process in the cortex matrix and cortex radix. "
+
+outfit "Phyto3 Array"
+  category "Power"
+  cost 29000
+  thumbnail "outfit/phyto3"
+  "mass" 60
+  "outfit space" -3
+  "solar collection" 3
+  description "This most advanced form of the phyto array generates the most energy from the photosynthesis process in the cortex matrix and cortex radix. "
+
+outfit "Tuber Array"
+  category "Power"
+  cost 12000
+  thumbnail "outfit/tuber"
+  "mass" 10
+  "outfit buds" -1
+  "energy capacity" 1000
+  description "A small tuber array can store some energy from the phyto array or plegma array"
+
+outfit "Tuber2 Array"
+  category "Power"
+  cost 30000
+  thumbnail "outfit/tuber2"
+  "mass" 20
+  "outfit buds" -2
+  "energy capacity" 2200
+  description "This tuber array can store about twice the amount of energy as a small tuber, but takes also twice so much space"
+
+outfit "Tuber3 Array"
+  category "Power"
+  cost 67000
+  thumbnail "outfit/tuber3"
+  "mass" 40
+  "outfit buds" -3
+  "energy capacity" 4800
+  description "This tuber array can store a considerable amount more energy than smaller tubers, but takes also much more space and add also to the mass of the ship. "
+
+outfit "Tuber4 Array"
+  category "Power"
+  cost 150000
+  thumbnail "outfit/large battery"
+  "mass" 80
+  "outfit buds" -4
+  "energy capacity" 10400
+  description "This tuber array can store a large amount of energy, but also takes much more space and add to the mass of the ship. "
+  description "An option if you can't be sure the phyto array will be able to generate a constant flow of energy and plegma array input becomes more important."
+
+outfit "Tuber5 Array"
+  category "Power"
+  cost 380000
+  thumbnail "outfit/tuber5"
+  "mass" 160
+  "outfit space" -5
+  "energy capacity" 23000
+  description "This tuber array can store a massive amount of energy, but also takes much more space and add considerable to the mass of the ship "
+  description "An option for the really large ships or ... for the ships that go where no Skafosa has gone before"
+
+outfit "Aigis"
+  category "Systems"
+  cost 20000
+  thumbnail "outfit/aigis"
+  "mass" 15
+  "outfit buds" -1
+  "shield generation" .2
+  "shield energy" .2
+  description "The aigis protect the ship from the rigors of space. This is the basic model."
+  description "The aigis array is an enhancement of the epidermal matrix and generates an energy-barrier around the ship "
+
+outfit "Aigis2"
+  category "Systems"
+  cost 35000
+  thumbnail "outfit/aigis2"
+  "mass" 22
+  "outfit buds" -2
+  "shield generation" .32
+  "shield energy" .32
+  description "The aigis protect the ship from the rigors of space. A more powerful model that recharges the barrier faster."
+  description "The aigis array is an enhancement of the epidermal matrix and generates an energy-barrier around the ship. "
+
+outfit "Aigis3"
+  category "Systems"
+  cost 65000
+  thumbnail "outfit/aigis3"
+  "mass" 30
+  "outfit buds" -3
+  "shield generation" .51
+  "shield energy" .51
+  description "The aigis protect the ship from the rigors of space. A model for the heavier barriers."
+  description "The aigis array is an enhancement of the epidermal matrix and generates an energy-barrier around the ship. "
+
+outfit "Aigis4"
+  category "Systems"
+  cost 120000
+  thumbnail "outfit/aigis4"
+  "mass" 45
+  "outfit buds" -4
+  "shield generation" .82
+  "shield energy" .82
+  description "The aigis protect the ship from the rigors of space. A model for the heavy barriers."
+  description "The aigis array is an enhancement of the epidermal matrix and generates an energy-barrier around the ship. "
+
+outfit "Aigis5"
+  category "Systems"
+  cost 20000
+  thumbnail "outfit/aigis5"
+  "mass" 60
+  "outfit buds" -5
+  "shield generation" 1.31
+  "shield energy" 1.31
+  description "The aigis protect the ship from the rigors of space. A model that can even recharges the biggest and heaviest barrier."
+  description "The aigis array is an enhancement of the epidermal matrix and generates an energy-barrier around the ship. "
+
+outfit "Vicrum"
+	category "Systems"
+	cost 122500
+	thumbnail "outfit/vicrum"
+	"mass" 5
+	"outfit buds" -1
+	"outfit scan power" 16
+	"outfit scan speed" 2
+	"cargo scan power" 4
+	"cargo scan speed" 2
+	"atmosphere scan" 100
+	"tactical scan power" 9
+  "asteroid scan power" 40
+	description "By observing the energy-signature of an object a Skafosa can give an analysis of the composition of that object."
+  description "The vicrum is an enhancement of the natural abilities that are used the navigate space."
+
+outfit "Mimicry Array"
+	category "Systems"
+	cost 1200000
+	"mass" 10
+	"outfit buds" -10
+	"cloak" .01
+	"cloaking energy" 1
+	"cloaking fuel" .2
+	unplunderable 1
+	description "By imitating its surroundings a Skafosa can become undetectable. Prolonged use could put a strain on the retis array."
+  description "The mimicry is an enhancement of the epidermal matrix and a further evolution of the vicrum. In conjunction with aigis allows this a Skafosa to mirror its surroundings."
+
+outfit "Velum Array"
+  category "Systems"
+  cost 60000
+  thumbnail "outfit/velum radix"
+  "mass" 10
+  "outfit space" -1
+  "ramscoop" 4
+  description "Together with the velum collectors the velum matrix generates energy for the retis array by harvesting particles from space."
+  description "The velum matrix can also use stored hyperfuel to generates energy for the retis array."
+
+outfit "Xylem Array"
+	category "Systems"
+	cost 25000
+	thumbnail "outfit/xylem"
+	"mass" 10
+	"outfit buds" -1
+	"cooling" 12
+	description "By optimizing cooling properties of the vanes controlled by the xylem matrix a Skafosa can vent additional heat."
+
+outfit "Xylem2 Array"
+	category "Systems"
+	cost 60000
+	thumbnail "outfit/xylem2"
+	"mass" 20
+	"outfit buds" -2
+	"cooling" 29
+	description "By optimizing and strengthening the cooling properties of the vanes controlled by the xylem matrix a Skafosa can vent more additional heat."
+
+outfit "Xylem3 Array"
+	category "Systems"
+	cost 150000
+	thumbnail "outfit/xylem3"
+	"mass" 40
+	"outfit buds" -3
+	"cooling" 69
+	description "By optimal use of the cooling properties of the strengthen vanes controlled by the xylem matrix a Skafosa can vent a maximal amount of additional heat."
+
+outfit "Gubernacor Drive"
+	category "Engines"
+	"cost" 46000
+	thumbnail "outfit/gubernacor"
+	"mass" 35
+	"outfit buds" -2
+	"engine buds" -2
+	"turn" 590
+	"turning energy" 1.1
+	"turning heat" 2.0
+  description "The gubernacor is a dedicated steering engine for the larger ships."
+  description "The vigor and his counterpart the gubernacor are a further development of the propulsor drive, with the objective to develop a adequate propulsion drive for the bigger ships."
+
+outfit "Gubernacor2 Drive"
+	category "Engines"
+	"cost" 102000
+	thumbnail "outfit/gubernacor2"
+	"mass" 59
+	"outfit buds" -4
+	"engine buds" -4
+	"turn" 1132
+	"turning energy" 1.9
+	"turning heat" 3.9
+  description "This gubernacor is a dedicated steering engine for the large ships."
+  description "The vigor and his counterpart the gubernacor are a further development of the propulsor drive, with the objective to develop a adequate propulsion drive for the bigger ships."
+
+outfit "Propulsor Drive"
+	category "Engines"
+	"cost" 40000
+	thumbnail "outfit/propulsor"
+	"mass" 40
+	"outfit buds" -2
+	"engine buds" -2
+	"thrust" 11.5
+	"thrusting energy" 1.1
+	"thrusting heat" 1.7
+  "turn" 307
+  "turning energy" .6
+  "turning heat" 1.1
+	"flare sprite" "effect/ion flare/small"
+		"frame rate" 1.1
+	"flare sound" "ion small"
+	description "The propulsor combines thrust and steering and is used on the smaller forms of ships."
+  description "The propulsor is developed from the ancestral design for orbital insertion engines."
+
+outfit "Vigor Drive"
+  category "Engines"
+  "cost" 58000
+  thumbnail "outfit/vigor"
+  "mass" 46
+  "outfit buds -1
+  "engine buds" -1
+  "thrust" 22.1
+  "thrusting energy" 1.9
+  "thrusting heat" 3.2
+  "flare sprite" "effect/ion flare/medium"
+  	"frame rate" 1.0
+  "flare sound" "ion medium"
+  description "The vigor is a dedicated thruster engine for the larger ships."
+  description "The vigor and his counterpart the gubernacor are a further development from the propulsor drive, with the objective to develop a adequate propulsion drive for the bigger ships."
+
+outfit "Vigor2 Drive"
+ category "Engines"
+ "cost" 128000
+ thumbnail "outfit/vigor2"
+	"mass" 79
+	"outfit space" -2
+	"engine capacity" -2
+	"thrust" 42.5
+	"thrusting energy" 3.5
+	"thrusting heat" 6.2
+	"flare sprite" "effect/ion flare/large"
+		"frame rate" 0.9
+	"flare sound" "ion large"
+  description "The vigor2 is a larger model of dedicated thruster engine for the larger ships but also add to the mass of the ship. "
+  description "The vigor and his counterpart the gubernacor are a further development of the propulsor drive, with the objective to develop a adequate propulsion drive for the bigger ships. "
+
+outfit "Onerum Drive"
+	category "Engines"
+	"cost" 340000
+	thumbnail "outfit/onerum"
+	"mass" 24
+	"outfit buds" -1
+	"engine buds" -1
+	"afterburner thrust" 29.0
+	"afterburner fuel" .5
+	"afterburner heat" 10
+	"afterburner effect" "onerum drive"
+	description "By diverting energy from the retis array to the engines an additional thrust can be generated."
+  description "Extensive use of the onerum can drain the retis array."
+
+effect "onerum drive"
+	sprite "effect/ionic afterburner"
+		"no repeat"
+		"frame rate" 30
+	sound "ionic afterburner"
+	"lifetime" 12
+	"random angle" 360
+	"random spin" 30
+	"random velocity" 1.
+	"velocity scale" 1.
+
+outfit "Retis Drive"
 	category "Systems"
 	cost 90000
 	thumbnail "outfit/retis radix"
@@ -7,7 +405,8 @@ outfit "Retis Radix"
 	"scram drive" .2
 	"jump fuel" 150
 	"hyperdrive" 1
-	description "The Retis radix allows you to use the cosmic grid and travel from star to star"
+	description "The retis allows you to use the cosmic grid and travel from star to star."
+  description "The retis is a further development based on the ancestral design for a drive used to navigate the planetary grid."
 
 outfit "Retis Array"
   category "Systems"
